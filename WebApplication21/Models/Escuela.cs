@@ -25,7 +25,7 @@
             Tipo = tipo;
         }
 
-        public Escuela Build(Guid id, string name, string direccion, string tipo)
+        public static Escuela Build(Guid id, string name, string direccion, string tipo)
         {
             return new Escuela(id, name, direccion, tipo);
         }
